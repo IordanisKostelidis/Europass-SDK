@@ -4,13 +4,11 @@ import eu.jnksoftware.europass.sdk.constants.Conversion;
 import eu.jnksoftware.europass.sdk.utils.FileUtils;
 import io.vavr.control.Option;
 import io.vavr.control.Try;
-import org.apache.commons.io.IOUtils;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.File;
-import java.nio.charset.StandardCharsets;
 
 public class EuropassConvertTest {
 

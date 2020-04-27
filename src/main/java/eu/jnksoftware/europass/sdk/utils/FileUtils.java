@@ -20,7 +20,7 @@ public abstract class FileUtils {
     }
 
     public static Try<File> getTempFile() {
-        return Try.of(() -> File.createTempFile("europass-sdk","tmp"));
+        return Try.of(() -> File.createTempFile("europass-sdk", "tmp"));
     }
 
     public static Try<FileOutputStream> constructFileOutputStream(final File file) {
